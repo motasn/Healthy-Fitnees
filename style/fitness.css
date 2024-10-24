@@ -1,0 +1,101 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.diff-font{
+    font-family: "Satisfy", cursive;
+}
+body{
+    margin: 0px;
+
+}
+
+/* share style */
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #E6533C;
+    padding: 8px 20px;
+    font-size: 18px;
+font-weight: 600;
+border: 0px;
+border-radius: 32px;
+}
+
+.btn-bg{
+    color: #FFFFFF;
+  background-color: #111111;
+    padding: 8px 20px;
+    font-size: 18px;
+font-weight: 600;
+border: 0px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+margin-left: 14px;
+}
+
+.btn-to{
+    display: flex;
+}
+header{
+    padding: 60px 120px ;
+    justify-content: center;
+    /* background: linear-gradient(180deg, rgb(17, 17, 17),  rgba(119, 119, 119, 0) 100%); */
+    background-color: #111111;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px ;
+    text-align: center;
+justify-content: center;
+align-items: center;
+}
+nav li{
+    list-style: none;
+    font-weight: 400px;
+    font-size: 18px;
+    
+}
+nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.fitnees-hg{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 32px;
+   
+}
+
+/* banner style */
+.text-br{
+    font-size: 75px;
+    font-weight: 900;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: #FFFFFF;
+}
+.banner-text{
+    margin-right: 180px;
+}
+
+.banner-p{
+    color: #FFFFFF ;
+    opacity: 50%;
+
+}
