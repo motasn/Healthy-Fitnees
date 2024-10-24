@@ -80,6 +80,7 @@ nav li a{
 
 /* banner style */
 .text-br{
+   
     font-size: 75px;
     font-weight: 900;
 }
@@ -202,20 +203,47 @@ hr{
     margin-bottom: 100px;
 }
 .extas img{
-    width: 560px;
-    border-radius: 18px;
+    width: 350px;
+   height: 270px;
+   margin:20px;
+    border-radius: 28px;
 }
 
 
-/* responsive media */
+/* responsive media
 @media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
-    nav{
+    
+    nav, nav ul{
      flex-direction: column;
     }
     .banner{
         flex-direction: column;
+    }
+    .trainers-img1,.trainers-img2{
+        flex-direction: column;
+    }
+} */
+
+ /* mobile  devices responsive*/ 
+@media screen and (max-width: 576px) {
+    .health-text, nav ul, nav,
+    .banner,
+    .tour-container,
+    .trainers-img1,.trainers-img2,.exte-contan,.footer-contan{
+        flex-direction: column;
+    }
+    header{
+        padding: 20px;
+    }
+    .extas img{
+        width: 70%;
+        padding: 10px 26px;
+    }
+    .text-br{
+        font-size: 42px;
+        text-align: center;
+    }
+    .banner-text{
+        margin: 0px;
     }
 }
