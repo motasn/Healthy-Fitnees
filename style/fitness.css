@@ -205,3 +205,17 @@ hr{
     width: 560px;
     border-radius: 18px;
 }
+
+
+/* responsive media */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+     flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
