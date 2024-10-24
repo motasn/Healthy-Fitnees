@@ -210,19 +210,6 @@ hr{
 }
 
 
-/* responsive media
-@media screen and (max-width: 576px) {
-    
-    nav, nav ul{
-     flex-direction: column;
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .trainers-img1,.trainers-img2{
-        flex-direction: column;
-    }
-} */
 
  /* mobile  devices responsive*/ 
 @media screen and (max-width: 576px) {
