@@ -9,7 +9,7 @@
 }
 body{
     margin: 0px;
-
+    background-color: #111111;
 }
 
 /* share style */
@@ -41,8 +41,8 @@ margin-left: 14px;
 header{
     padding: 60px 120px ;
     justify-content: center;
-    /* background: linear-gradient(180deg, rgb(17, 17, 17),  rgba(119, 119, 119, 0) 100%); */
-    background-color: #111111;
+    background: linear-gradient(180deg, rgb(17, 17, 17),  rgba(119, 119, 119, 0) 100%);
+ 
 }
 
 nav{
@@ -98,4 +98,39 @@ nav li a{
     color: #FFFFFF ;
     opacity: 50%;
 
+}
+
+/* habbit-container */
+.habbit-container{
+  margin-top: 100px;
+}
+.Change-text{
+  
+    text-align: center;
+}
+.Change-text h2{
+    color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+}
+.Change-text p{
+    color: #FFFFFF ;
+    opacity: 50%;
+ margin-bottom: 50px;
+}
+.health-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.health-text-hg{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+.img-cr{
+    border-radius: 50%;
 }
